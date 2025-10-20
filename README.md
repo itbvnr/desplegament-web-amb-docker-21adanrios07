@@ -21,7 +21,7 @@ FROM nginx:alpine
 # Crea un arxiu index.html amb el contingut "Hola Mon"
 RUN echo "<h1>Hola Mon</h1>" > /usr/share/nginx/html/index.html
 # Inicia el servidor nginx
-CMD ["nginx", "-g", "daemon off;"]//////////////////////////eliminar
+CMD ["nginx", "-g", "daemon off;"]
 ```
 
 ### 🔹 Crear l'imatge amb la seva etiqueta (Executar això a la línia de comandes)
